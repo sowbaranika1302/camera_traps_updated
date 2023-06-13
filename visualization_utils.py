@@ -203,7 +203,7 @@ COLORS = [
 ]
 
 
-def crop_image(detections, image, confidence_threshold=0.6, expansion=0):
+def crop_image(detections, image, confidence_threshold=0.4, expansion=0):
     """
     Crops detections above *confidence_threshold* from the PIL image *image*,
     returning a list of PIL images.
